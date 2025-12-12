@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+
+# Data (raw collected gesture data)
+data/raw/*.csv
+
+# Trained models (optional – keep if small)
+data/models/*.h5
+data/models/*.pkl
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Matplotlib cache
+.matplotlib/
+
+# Screenshots / recordings
+*.mp4
+*.avi
+*.mov
